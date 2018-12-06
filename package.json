@@ -40,6 +40,7 @@
   "dependencies": {
     "babel-loader": "^7.0.0",
     "react": "^15.5.4",
+    "react-anchor-link-smooth-scroll": "^1.0.11",
     "react-dom": "^15.5.4"
   },
   "main": "server.js"

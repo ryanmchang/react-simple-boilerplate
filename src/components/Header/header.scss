@@ -7,10 +7,16 @@
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 #title {
   color: white;
+  font-size: 4rem;
+}
+#subtext {
+  color: white;
+  font-size: 2rem;
 }

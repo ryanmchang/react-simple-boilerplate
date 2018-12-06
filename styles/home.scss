@@ -1,11 +1,67 @@
-h1 {
+* {
+  margin: 0px;
+}
+#toplevel-container {
+}
+
+.mainh {
   color: black;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.mainp {
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+.section {
+  padding-bottom: 50px;
+  // border: solid;
+  // border-color: black;
+}
+
+#missions {
+  display: flex;
+  flex-direction: column;
 }
 
 #container {
   padding: 100px 100px 100px 100px;
 }
 
-* {
-  margin: 0px;
+
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  #ucsdImg {
+    margin-top: 30px;
+    height: 100px;
+    width: auto;
+    align-self: center;
+  }
+}
+
+#team {
+  .team-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  #robo-email {
+    font-weight: bold;
+    font-size: 2rem;
+    transition: all .3s ease-in-out;
+  }
+  #robo-email:hover {
+    color: #4d4d4d;
+    font-size: 2.3rem;
+  }
 }

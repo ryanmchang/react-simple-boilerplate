@@ -7,7 +7,8 @@ export default class Header extends Component {
   render() {
     return (
       <div id="background">
-        <h1 id="title">Triton RoboSub!</h1>
+        <h1 id="title">Triton RoboSub</h1>
+        <p id="subtext">A Triton Robotics Team</p>
       </div>
     );
   }
