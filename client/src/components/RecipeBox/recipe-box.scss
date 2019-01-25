@@ -1,0 +1,30 @@
+.teamBox {
+  display: flex;
+  flex-direction: row;
+  max-height: 250px;
+  max-width: 700px;
+  margin: 30px;
+  background-color: #182b49;
+  .memberPic {
+    min-height: 250px;
+    min-width: 250px;
+  }
+
+  .textBox {
+    padding: 15px;
+
+    .memberH {
+      color: white;
+      font-size: 1.3rem;
+      font-family: sans-serif;
+    }
+
+    .memberText {
+      color: white;
+      font-size: 1rem;
+      font-family: sans-serif;
+      padding: 4px;
+      margin-bottom: 20px;
+    }
+  }
+}

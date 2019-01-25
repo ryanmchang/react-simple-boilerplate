@@ -1,0 +1,22 @@
+
+#background {
+  background-image: url("https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?cs=srgb&dl=blue-blur-color-932638.jpg&fm=jpg");
+  background-size: cover;
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  color: white;
+  font-size: 4rem;
+}
+#subtext {
+  color: white;
+  font-size: 2rem;
+}
